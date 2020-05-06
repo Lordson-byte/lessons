@@ -7,8 +7,6 @@ from PyQt5.QtWidgets import QWidget
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 import controller
-
-
 def main():
     app = QtWidgets.QApplication(sys.argv)
     window = controller.MyCalc()
